@@ -1,0 +1,218 @@
+/* Цвет основного текста #212121 */
+
+/* Цвет вторичного текста #757575 */
+
+/* Белый цвет #FFFFFF */
+
+/* Цвет акцент #2196F3 */
+
+/* Цвет вторичного фона #F5F4FA */
+
+/* Цвет в footer rgba(255, 255, 255, 0.6) */
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --white-color: #ffffff;
+  --dark-background-color: #2f303a;
+  --accent-color: #2196f3;
+  --background-color: #e5e5e5;
+  --second-backgroud-color: #f5f4fa;
+  --footer-color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.navigation a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus {
+  color: var(--accent-color);
+}
+
+.nav-menu {
+  font-family: "Roboto", sans-serif;
+  font-size: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+.block {
+  background: var(--dark-background-color);
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+button {
+  background: var(--accent-color);
+}
+
+.section {
+  bottom: var(--background-color);
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.menu p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.work {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.our-team {
+  background: var(--second-backgroud-color);
+}
+
+.team {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.menu h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+footer {
+  background: var(--dark-background-color);
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.menu-footer a {
+  text-decoration: none;
+  color: var(--footer-color);
+}
+
+.menu-footer a:hover,
+.menu-footer a:focus {
+  color: var(--accent-color);
+}
+
+.menu-footer {
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.menu button {
+  background: var(--second-backgroud-color);
+}
+
+.menu button:hover,
+.menu button:focus {
+  background: var(--accent-color);
+}
+
+.bttn a:hover,
+.bttn a:focus {
+  color: var(--white-color);
+}
+
+.text-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
