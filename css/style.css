@@ -20,6 +20,30 @@
   --footer-color: rgba(255, 255, 255, 0.6);
 }
 
+ a {
+  text-decoration: none;
+}
+
+.black-logo {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.logo {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
 .nav-menu a {
   text-decoration: none;
   color: var(--title-text-color);
@@ -27,6 +51,7 @@
 
 .navigation a {
   text-decoration: none;
+  font-style: normal;
   color: var(--primary-text-color);
 }
 
